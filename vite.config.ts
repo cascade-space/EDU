@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     react(),
     mode === 'development' && componentTagger(),
   ].filter(Boolean),
-  base: '/', // Updated base path to root
+  base: '/edu-hub-connector-62/', // Updated base path to root
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'), // Maps @ to src folder
