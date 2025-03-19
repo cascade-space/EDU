@@ -12,7 +12,7 @@ import { BrowserRouter } from 'react-router-dom';
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ThemeProvider>
-      <BrowserRouter basename="/edu-hub-connector-62">
+      <BrowserRouter basename="/edu">
         <AuthProvider>
           <App />
           <Toaster />
